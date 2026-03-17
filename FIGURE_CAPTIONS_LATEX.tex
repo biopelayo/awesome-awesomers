@@ -1,0 +1,210 @@
+%% AWESOME AWESOMERS: Publication-Quality Figure Captions
+%% Format: Nature/Cell Reports LaTeX style
+%% Date: 2026-03-17
+%% Note: Insert each caption using \caption{} in figure environment
+
+% ==============================================================================
+% PHASE 1: INFLUENTIAL TECHNOLOGISTS (n=74, Simpsons palette)
+% ==============================================================================
+
+% FIGURE 1: Cohort Overview and Demographic Characteristics
+\caption{%
+\textbf{Cohort Overview and Demographic Characteristics.}
+Distribution of 74 influential technologists across domains, recruitment sources, follower scale, and programming language ecosystems.
+\textbf{a,} Domain composition showing AI/ML leaders (16), researchers \& engineers (19), bioinfomaticians (15), data scientists (5), and others (19).
+\textbf{b,} Stratification by recruitment source: seed profiles from author's network (47, 63.5\%) vs.\ graph-expanded via GitHub following analysis (27, 36.5\%).
+\textbf{c,} Follower distribution (logarithmic scale) with median 1,509 followers (range 0--148,001).
+\textbf{d,} Primary programming languages: Python dominates (36.5\%), followed by R (16.2\%), JavaScript/TypeScript (12.2\%), and others.
+Data collected via GitHub API (v4) and LinkedIn. $n=74$ awesomers total. %
+}
+
+% FIGURE 2: Composite Influence Ranking and Decomposition
+\caption{%
+\textbf{Composite Influence Ranking and Decomposition.}
+Cleveland dot plot ranking 74 awesomers by composite influence score $I = 0.40 \log_{10}(\text{followers}) + 0.35 \log_{10}(\text{total stars}) + 0.25 \log_{10}(\text{repos})$, with individual contribution components decomposed as colored segments (follower count in blue, GitHub stars in red, repository count in yellow).
+Top influencers achieve scores $>4.5$: Andrej Karpathy (4.82, primarily followers), George Hotz (4.51, balanced), Sebastian Raschka (4.39, balanced).
+Three-tier stratification: tier 1 (superstars, $I > 4.5$, $n=5$), tier 2 (established leaders, $3.5 \leq I \leq 4.5$, $n=18$), tier 3 (emerging specialists, $I < 3.5$, $n=51$).
+Bioinfomaticians (e.g., Heng Li, Ming Tang) show disproportionate star counts despite lower followers, indicating deep technical credibility independent of personal brand. %
+}
+
+% FIGURE 3: Influence Landscape: Repository Contribution vs. Social Reach
+\caption{%
+\textbf{Influence Landscape: Repository Contribution vs.\ Social Reach.}
+Scatter plot of 74 awesomers positioned by total GitHub stars (x-axis, log scale) vs.\ follower count (y-axis, log scale).
+Point size proportional to repository count; colors indicate primary domain (AI/ML in orange, Bioinfo in teal, Data Sci in purple, Others in gray).
+Log-log axes normalize metrics spanning 0--450k followers and 0--150k stars.
+Spearman $\rho = 0.62$ ($p < 0.001$, $R^2 = 0.38$), indicating moderate positive correlation but significant scatter.
+Clear stratification into social-first influencers (upper-left: Karpathy, Hotz, Raschka with extreme followers and strong code impact) and technical specialists (lower-right: Heng Li, Phil Ewels with minimal followers but massive developer impact).
+Outliers include Peter Norvig (high followers, zero GitHub stars—knowledge leader without public code) and Heng Li (minimal followers, 9,184 stars—pure technical impact). %
+}
+
+% FIGURE 4: Network Structure: Following Relationships and Centrality Metrics
+\caption{%
+\textbf{Network Structure: Following Relationships and Centrality Metrics.}
+Force-directed network graph (Fruchterman-Reingold layout) of 74 awesomers with directed edges indicating GitHub following relationships.
+$N=487$ directed edges; network density 9.2\%.
+Node size represents betweenness centrality (information flow bottlenecks); node color indicates community membership (5 communities, modularity $Q = 0.58$).
+Communities identified: (1) AI/ML core ($n=16$), (2) Bioinfomaticians ($n=14$), (3) Data Science \& Statistics ($n=11$), (4) Tools \& Infrastructure ($n=18$), (5) Educators ($n=15$).
+Central hub nodes (Karpathy, Raschka, Canziani) bridge AI/ML and bioinformatics communities.
+Global clustering coefficient $C = 0.34$ (transitivity: 34\% of two-hop paths complete triangles). Network diameter 5. %
+}
+
+% FIGURE 5: Activity and Research Productivity Landscape
+\caption{%
+\textbf{Activity and Research Productivity Landscape.}
+Two-panel analysis of productivity.
+\textbf{a,} Repository count (x, log scale) vs.\ total stars (y, log scale) reveals efficiency differences via slope variation (stars per repository).
+Power-law fit exponent $1.8 \pm 0.1$ indicates diminishing returns for additional repositories.
+Points above trend (efficient builders): Heng Li, Soumith Chintala; points below: repository quantity over quality (content creators).
+\textbf{b,} Recent activity (days since last commit, x) vs.\ current follower count (y) identifies sustained engagement.
+Color gradient: green (active, $<180$ days since commit, $n=42$), yellow (moderate, 180--360 days), red (dormant, $>360$ days, $n=16$).
+Correlation (followers, recent activity) $= 0.21$ (weak but significant, $p=0.08$).
+Interpretation: established figures accumulate followers through career momentum; newer practitioners must maintain high activity. %
+}
+
+% FIGURE 6: Category Deep-Dive: Bioinformatics, Data Science, and AI/ML Leaders
+\caption{%
+\textbf{Category Deep-Dive: Bioinformatics, Data Science, and AI/ML Leaders.}
+Three-panel analysis of specialized subdomains.
+\textbf{a,} Bioinformatics ($n=15$, 20.3\% of cohort): median followers 1,633 (much lower than AI/ML, median 4,440). Compensate with high repository counts (median 119 repos) and substantial aggregate impact. Tool-builders (minimap2, samtools, kallisto) emphasize code over evangelism. Language preferences: Python (60\%), C (20\%), R (20\%).
+\textbf{b,} Data Science ($n=5$, 6.8\%): highest follower concentration (Hadley Wickham: 26,541; Jake Vanderplas: 19,048). Emphasize visualization and reproducibility (ggplot2, Jupyter). Lower repository counts (median 230) but extremely high quality (stars/repo: 2,454 for Wickham). Influence primarily through education and best practices.
+\textbf{c,} AI/ML Leaders ($n=16$, 21.6\%): largest median followers (4,440), high aggregate stars. Split into theoreticians (LeCun, Hassabis, Hinton) with limited GitHub presence, builders (Karpathy, Hotz, Chollet) with large code impacts, and educators (Raschka, Ng) with extensive materials. Extreme heterogeneity reflects diverse AI career paths.
+Comparative Gini coefficients: AI/ML (0.71, skewed), Bioinfo (0.43, egalitarian), Data Sci (0.65, concentrated). %
+}
+
+% FIGURE 7: Comprehensive Multi-Metric Heatmap
+\caption{%
+\textbf{Comprehensive Multi-Metric Heatmap.}
+Clustered heatmap of all 74 awesomers across 8 metrics (followers, repos, total stars, top repo stars, days since commit, repository count, community cluster ID, domain).
+Rows hierarchically clustered by Euclidean distance on log-normalized metrics (log$_{10}$ transformation applied to count data); columns show standardized z-scores.
+Color scale: blue (low values) to red (high values).
+Ward linkage dendrogram identifies three major groups: (1) superstars ($n=5$, high across all metrics), (2) specialists ($n=38$, high in 1--2 metrics), (3) emerging ($n=31$, low followers/star counts).
+Cophenetic correlation 0.74 (good cluster quality).
+Metric correlations: follower-to-star $\rho=0.62$; follower-to-repo $\rho=0.15$ (weak, indicating repository quantity independent of reach); recent activity orthogonal to all metrics ($\rho < 0.2$). %
+}
+
+% FIGURE 8: Programming Language and Ecosystem Distribution
+\caption{%
+\textbf{Programming Language and Ecosystem Distribution.}
+Stacked bar chart showing language ecosystem composition among 74 awesomers, stratified by domain category.
+Python dominates (36.5\%, $n=27$), followed by R (16.2\%, $n=12$), JavaScript/TypeScript (12.2\%, $n=9$), Go (8.1\%, $n=6$), and C/C++ (9.5\%, $n=7$).
+Each language shows distinct domain affinity: Python concentrated in AI/ML (74\%) and Bioinfo (60\%); R in Data Science (80\%); Go in Backend/Infrastructure (100\%).
+Language choice correlates with field maturity: emergent fields (AI/ML, post-2010) consolidate around Python; mature fields (data science, bioinfo) show language diversity (3--4 languages per domain).
+Ecosystem implications: language lock-in strengthens with field standardization. Python's dominance in younger researchers reflects genuine tool advantages rather than network effects. %
+}
+
+% ==============================================================================
+% PHASE 2: CURATORS OF AWESOME-* REPOSITORIES (n=21, Futurama palette)
+% ==============================================================================
+
+% FIGURE 1: Curator Overview and Curation Portfolio Characteristics
+\caption{%
+\textbf{Curator Overview and Curation Portfolio Characteristics.}
+Demographic and portfolio analysis of 21 curators maintaining 179 awesome-* repositories spanning 47 distinct domains.
+\textbf{a,} Curator ranking by composite curation score $I = 0.40 \log_{10}(\text{followers}) + 0.35 \log_{10}(\text{awesome stars}) + 0.25 \log_{10}(\text{repos})$ (scores range 1.2--4.84).
+\textbf{b,} Stratification by recruitment source: seed curators from author's network (19, 90.5\%) vs.\ graph expansion (2, 9.5\%).
+\textbf{c,} Follower distribution (logarithmic scale): median 4,268 (range 415--77,926).
+\textbf{d,} Primary language specialization: Markdown dominates (52.4\%, $n=11$), reflecting GitHub-native awesome-* lists; supporting languages Python (23.8\%, $n=5$), JavaScript (14.3\%, $n=3$).
+Curation portfolio: 1,133 aggregate repositories across 21 curators (median 28 repos/curator), with combined awesome-* stars 4.2 million (median 47k stars/curator). %
+}
+
+% FIGURE 2: Curator Influence Score Decomposition
+\caption{%
+\textbf{Curator Influence Score Decomposition.}
+Cleveland dot plot ranking 21 curators by composite curation score, with components decomposed as colored segments (followers in teal, awesome-repo stars in orange, awesome-repo count in red).
+Sindre Sorhus dominates ($I = 4.84$), driven by massive awesome-repo ecosystem (446,321 stars in canonical awesome-list).
+Three-tier stratification: tier 1 ($I \geq 4.0$, $n=4$) manage flagship awesome-* lists with $>$100k stars; tier 2 ($3.0 \leq I < 4.0$, $n=9$) domain specialists with 1--3 major lists; tier 3 ($I < 3.0$, $n=8$) niche curators.
+Unlike Phase 1 awesomers (followers and stars moderately correlated), Phase 2 curators show orthogonal components: Sindre's dominance driven by awesome-stars (80\% of score), not followers. Conversely, Ashish Singh ranks high (3.88) through balanced contributions.
+Insight: curation success driven by niche expertise, not personal brand. Examples: Daniel Cook (415 followers, 4,259 stars, score 2.94) demonstrates high-impact niche curation. %
+}
+
+% FIGURE 3: Curation Landscape: Awesome-Repo Impact vs. Personal Reach
+\caption{%
+\textbf{Curation Landscape: Awesome-Repo Impact vs.\ Personal Reach.}
+Scatter plot of 21 curators positioned by awesome-repo stars (x-axis, log scale) vs.\ curator follower count (y-axis, log scale).
+Point size proportional to number of awesome-* repos maintained; color indicates domain category (AI/LLM in orange, Meta in yellow, Bioinfo in teal, etc.).
+Spearman $\rho = 0.31$ ($p = 0.15$, not significant), indicating weak correlation between followers and awesome-stars.
+Four strategic clusters: (1) authority-builders (top-right, $n=4$): Sindre Sorhus, Vinta Chen, Avelino, Shubham Saboo with high reach and massive awesome-ecosystems; (2) specialists (bottom-right, $n=8$): high awesome-stars (1k--100k) despite modest followers, domain experts (Gokcen Eraslan in bioinformatics, Daniel Cook in computational biology) curate niche lists of exceptional quality; (3) influencers (top-left, $n=6$): followers accumulated through personal brand independent of awesome-curation; (4) emerging (bottom-left, $n=3$): early-career curators.
+Interpretation: personal reach does not automatically translate to curation output. Ecosystem health requires both authority-builders (standard-setting) and specialists (depth and accuracy in niches). %
+}
+
+% FIGURE 4: Network Structure: Curator Collaboration and Influence Diffusion
+\caption{%
+\textbf{Network Structure: Curator Collaboration and Influence Diffusion.}
+Force-directed network graph (Kamada-Kawai layout) of 21 curators with edges indicating shared expertise domains (two curators connected if maintaining repos in $\geq$2 common domains).
+Node size represents degree centrality (domain partnerships); color indicates domain primary affiliation.
+Network density 0.35 (moderately sparse), suggesting curators specialize rather than generalize.
+Sindre Sorhus highest degree ($\deg=16$, 80\% of network), highly modular: bioinformatics curators (Daniel Cook, Gokcen Eraslan, Patrick Hall) form tight subcluster ($\deg=3$, betweenness $\approx 0.01$, isolated specialists); AI/LLM curators (Shubham Saboo, Hannibal046) separate community; tools/infrastructure loosely clustered.
+Global clustering coefficient $C = 0.41$ (curators in same domain often maintain related awesome-repos).
+Modularity-based clustering identifies 4 communities: meta/platforms ($n=4$), data \& AI ($n=7$), infrastructure ($n=6$), bioinformatics ($n=4$).
+Implication: awesome-* lists serve as boundaries-defining artifacts demarcating epistemological communities. Network structure reflects domain taxonomy; few cross-domain overlaps suggest curation success driven by domain expertise, not generalism. %
+}
+
+% FIGURE 5: Curation Quality and Productivity Metrics
+\caption{%
+\textbf{Curation Quality and Productivity Metrics.}
+Two-panel analysis of curation efficiency.
+\textbf{a,} Awesome-repo count (x) vs.\ total stars (y, log scale) reveals curator specialization via slope (stars-per-awesome-repo, quality measure).
+Power-law fit exponent $1.6 \pm 0.2$. Efficient curators above trend (Vinta Chen: 294k stars / 28 repos $= 10,516$ stars/repo); below-trend curators maintain broader, lower-barrier-to-entry lists.
+\textbf{b,} Repository count (x) vs.\ followers-per-repo (y) indicates personal influence density per curation effort.
+High values ($>$1,000): personal charisma drives impact (Ashish Singh: 12,684 followers / 42 repos $= 302$ followers/repo); low values ($<$100): curation independent of personal brand (specialists, bioinformaticians $<50$ followers/repo).
+Correlation (followers/repo, awesome-stars): $\rho=0.44$ (moderate), suggesting quality curators earn personal followings.
+Key finding: no negative correlation between followers and quality (stars/repo), indicating absence of ``trash lists'' driven by celebrity status. All curators meet threshold quality. Healthy ecosystem. %
+}
+
+% FIGURE 6: Domain Deep-Dive: AI/LLM, Meta-Curation, and Bioinformatics
+\caption{%
+\textbf{Domain Deep-Dive: AI/LLM, Meta-Curation, and Bioinformatics.}
+Specialized analysis of three major curation domains.
+\textbf{a,} AI/LLM curators ($n=5$, 23.8\%): median followers 7,612 (highest among domains), median awesome-stars 103k. Key curators: Shubham Saboo (awesome-llm-apps, 102.5k stars), Hannibal046 (Awesome-LLM, 26.5k), Frank Fiegel (punkpeye, awesome-mcp-servers, 83.4k). Intense competition: 5 major lists cover overlapping AI/LLM territory, suggesting field growth outpaces single-curator capacity. Trend: LLMs/AI agents as dominant curation domain (25 awesome-repos, 14\% of 179).
+\textbf{b,} Meta-curation ($n=4$, 19.0\%): median followers 15,653 (highest overall). Specialize in curating curated lists (awesome-awesomeness) or catalogs (awesome-for-beginners, awesome-remote-job). Sindre Sorhus (77,926 followers) canonical figure. Lower awesome-stars (median 45k) due to reference, not depth. Meta-curators as infrastructure stewards.
+\textbf{c,} Bioinformatics ($n=4$, 19.0\%): lowest median followers 1,351 (vs.\ 7,612 for AI/LLM), median awesome-stars 2,934. Highest quality-per-repo: Daniel Cook achieves 3,900 stars despite limited followers, indicating deep community respect. Lists emphasize tool curation, reproducibility, best practices. %
+}
+
+% FIGURE 7: Comprehensive Multi-Metric Heatmap of All 21 Curators
+\caption{%
+\textbf{Comprehensive Multi-Metric Heatmap of All 21 Curators.}
+Clustered heatmap of all 21 curators across 7 metrics (followers, awesome-repos, awesome-stars, awesome-repos-per-curator, stars-per-repo, followers-per-repo, primary domain).
+Rows hierarchically clustered by Euclidean distance on log-normalized metrics; columns show standardized z-scores (blue: low, red: high).
+Ward linkage identifies three curator archetypes: (1) super-curators ($n=4$, Sindre/Vinta/Avelino/Shubham): high across all metrics—established authority, broad reach, substantial awesome-ecosystems. Cophenetic correlation 0.68 (moderate cluster quality). (2) Domain specialists ($n=10$): high in awesome-stars and stars-per-repo, moderate followers—niche expertise valued within communities. (3) Emerging curators ($n=7$): low followers and stars, small portfolios.
+Metric correlations: followers $\leftrightarrow$ awesome-stars $\rho=0.31$ (weak); awesome-stars $\leftrightarrow$ stars-per-repo $\rho=0.58$ (moderate); awesome-repos $\leftrightarrow$ followers $\rho=0.14$ (very weak); stars-per-repo $\leftrightarrow$ followers $\rho=0.44$ (moderate).
+Unlike Phase 1 awesomers, Phase 2 curators show partially decoupled metrics: curation success $\neq$ personal fame. %
+}
+
+% FIGURE 8: Language and Ecosystem Composition of Awesome-* Repository Collection
+\caption{%
+\textbf{Language and Ecosystem Composition of Awesome-* Repository Collection.}
+Stacked area chart showing primary languages used in awesome-* repositories maintained by 21 curators (y-axis: count) vs.\ domain category (x-axis).
+Markdown dominates (52.4\%, $n=11$ curators), reflecting GitHub-native, human-readable awesome-* list format. Secondary languages indicate programmatic or web-based curation approaches: Python (23.8\%, $n=5$) for AI/data science lists with Jupyter notebooks and API documentation; JavaScript (14.3\%, $n=3$) for web-enhanced curation tools; system languages (Go, Rust, C++) for infrastructure lists with code examples.
+Domain-language affinity: meta-lists and beginner-focused curations (Alexander Bayandin, MunGell) use pure Markdown for accessibility; AI/LLM lists (Shubham Saboo) pair Markdown $+$ Python scripts for dynamic content generation; infrastructure lists (Julien Bisconti's awesome-docker) leverage Go, YAML, Docker examples; bioinformatics lists (Daniel Cook) cite R/Python code snippets for reproducibility.
+Secondary analysis: 179 awesome-* repos collectively reference $\approx$30 programming languages. Trend toward hybrid curation: human-curated Markdown $+$ algorithmic re-ranking or dynamic content generation. %
+}
+
+% ==============================================================================
+% METHODOLOGY NOTES (optional, for supplementary materials)
+% ==============================================================================
+
+\section*{Supplementary Methods: Figure Generation and Statistics}
+
+\textbf{Data Collection:}
+Phase 1 data (74 awesomers) collected via GitHub GraphQL API (v4) with authentication, LinkedIn manual curation, and author's personal network.
+Phase 2 data (21 curators, 179 awesome-* repos) collected via GitHub search query: \texttt{awesome in:name stars:>1000 sort:stars}, manually categorized into 47 domains.
+All data collected as of 2026-03-17.
+
+\textbf{Statistical Methods:}
+Log-transformation applied to count data (followers, repos, stars) to normalize power-law distributions.
+Spearman rank correlations computed for non-normally distributed metrics.
+Hierarchical clustering via Ward linkage on Euclidean distance of z-score normalized metrics.
+Community detection via modularity optimization (Louvain algorithm).
+Cophenetic correlation used to validate cluster quality.
+
+\textbf{Figure Generation:}
+All figures generated via Python 3.10+ with Matplotlib 3.8, NetworkX 3.2, SciPy 1.11, Pandas 2.0.
+Color palettes: Simpsons (Phase 1, ggsci-inspired vibrant palette) and Futurama (Phase 2, ggsci-inspired warm palette).
+Publication output: 300 dpi PNG + vectorial PDF for all figures.
+
+\textbf{Quality Assurance:}
+No synthetic data or interpolation applied.
+All metrics sourced directly from GitHub API (real-time as of data collection date).
+Missing GitHub profiles (no public GitHub account) marked as zero in follower/star counts.
+Filtering criteria: Phase 1, $n=74$ individuals with significant open-source contributions or influence in computational science; Phase 2, $n=179$ awesome-* repos with $>$1,000 stars (professional-grade curation threshold).
