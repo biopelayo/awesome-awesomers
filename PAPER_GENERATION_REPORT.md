@@ -171,7 +171,7 @@ If referencing this paper:
 @misc{awesomeawesomers2026,
   title={Awesome Awesomers: Mapping Influence and Impact in Tech Communities},
   subtitle={A two-phase comparative analysis of influential technologists and awesome-repository curators},
-  author={Claude Haiku 4.5},
+  author={González de Lena Rodríguez, Pelayo},
   year={2026},
   month={March},
   day={17},

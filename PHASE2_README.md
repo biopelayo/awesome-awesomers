@@ -165,7 +165,7 @@ If you use this analysis or data, please cite:
 ```bibtex
 @misc{awesomeawesomers2026,
   title={Awesome Awesomers: A Quantitative Analysis of Knowledge Curation in Open Source},
-  author={Pelayo, Gonzalez de Lena},
+  author={González de Lena Rodríguez, Pelayo},
   year={2026},
   url={https://github.com/biopelayo/awesome-awesomers}
 }

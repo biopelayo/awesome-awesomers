@@ -167,7 +167,7 @@ def build_pdf():
 
     # Metadata
     story.append(Paragraph("<b>Date:</b> March 17, 2026", styles["CustomBody"]))
-    story.append(Paragraph("<b>Authors:</b> Claude Haiku 4.5", styles["CustomBody"]))
+    story.append(Paragraph("<b>Authors:</b> Pelayo González de Lena Rodríguez", styles["CustomBody"]))
     story.append(Paragraph("<b>Dataset:</b> GitHub API v4, LinkedIn profiles, network analysis", styles["CustomBody"]))
     story.append(PageBreak())
 

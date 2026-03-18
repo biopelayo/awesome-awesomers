@@ -21,7 +21,7 @@ PAPER STRUCTURE (18-22 pages, double-spaced, Times New Roman 11pt)
    - Title: "Awesome Awesomers: Mapping Influence & Impact in Tech Communities"
    - Subtitle: "A two-phase comparative analysis..."
    - Date: March 17, 2026
-   - Authors: Claude Haiku 4.5
+   - Authors: Pelayo González de Lena Rodríguez
 
 2. ABSTRACT (150-200 words)
    - Problem statement, methods, key findings
