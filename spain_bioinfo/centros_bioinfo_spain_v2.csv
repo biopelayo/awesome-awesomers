@@ -1,0 +1,88 @@
+type,name,parent_institution,city,region,lat,lon,main_area,pi_lead,url
+center,CNIO,Ministerio de Ciencia,Madrid,Comunidad de Madrid,40.4380,-3.6852,cancer genomics,,https://www.cnio.es
+unit,Bioinformatics Unit (CNIO),CNIO,Madrid,Comunidad de Madrid,40.4380,-3.6852,cancer genomics; bioinformatics,Fatima Al-Shahrour,https://www.cnio.es
+unit,Bioinformatics Unit GENCODE,CNIO,Madrid,Comunidad de Madrid,40.4380,-3.6852,genomics; gene annotation,Michael L. Tress,https://www.cnio.es
+center,CNIC,Ministerio de Ciencia,Madrid,Comunidad de Madrid,40.4536,-3.6821,cardiovascular genomics,,https://www.cnic.es
+unit,Bioinformatics Unit (CNIC),CNIC,Madrid,Comunidad de Madrid,40.4536,-3.6821,multi-omics; AI,,https://www.cnic.es/es/investigacion/bioinformatica
+unit,Genomics Unit (CNIC),CNIC,Madrid,Comunidad de Madrid,40.4536,-3.6821,NGS; genomics,,https://www.cnic.es/en/investigacion/genomics
+center,ISCIII,Ministerio de Ciencia,Madrid,Comunidad de Madrid,40.4573,-3.7186,public health; clinical genomics,,https://www.isciii.es
+unit,Bioinformatics Unit (BU-ISCIII),ISCIII,Madrid,Comunidad de Madrid,40.4573,-3.7186,clinical bioinformatics,Isabel Cuesta,https://www.isciii.es
+center,BSC,Ministerio de Ciencia,Barcelona,Catalunya,41.3897,2.1160,HPC; computational biology,Alfonso Valencia,https://www.bsc.es
+group,Computational Biology Group,BSC,Barcelona,Catalunya,41.3897,2.1160,computational biology,Alfonso Valencia,https://www.bsc.es
+group,Genome Informatics,BSC,Barcelona,Catalunya,41.3897,2.1160,genome informatics,Miguel Vazquez,https://www.bsc.es
+group,NLP for Biomedical Information,BSC,Barcelona,Catalunya,41.3897,2.1160,NLP; text mining,Martin Krallinger,https://www.bsc.es
+unit,INB Coordination Node,BSC,Barcelona,Catalunya,41.3897,2.1160,ELIXIR coordination,Salvador Capella-Gutierrez,https://inb-elixir.es
+unit,INB Computational Node,BSC,Barcelona,Catalunya,41.3897,2.1160,UseGalaxy.es,Josep Ll. Gelpi,https://www.bsc.es
+center,CRG,UPF; CERCA,Barcelona,Catalunya,41.3846,2.1943,genomics; systems biology,,https://www.crg.eu
+unit,Bioinformatics Unit (CRG),CRG,Barcelona,Catalunya,41.3846,2.1943,NGS analysis,Julia Ponomarenko,https://www.crg.eu
+group,Computational Biology of RNA Processing,CRG,Barcelona,Catalunya,41.3846,2.1943,RNA; gene expression,Roderic Guigo,https://www.crg.eu
+group,Comparative Bioinformatics,CRG,Barcelona,Catalunya,41.3846,2.1943,comparative genomics,Cedric Notredame,https://www.crg.eu
+group,EGA Team,CRG,Barcelona,Catalunya,41.3846,2.1943,data archival; genomics,Arcadi Navarro; Jordi Rambla,https://www.crg.eu
+center,CNAG-CRG,CRG,Barcelona,Catalunya,41.3846,2.1943,large-scale genomics,Ivo Gut; Sergi Beltran,https://www.cnag.crg.eu
+center,IRB Barcelona,UB; CERCA,Barcelona,Catalunya,41.3851,2.1734,biomedical research,,https://www.irbbarcelona.org
+group,Biomedical Genomics (BBGLab),IRB Barcelona,Barcelona,Catalunya,41.3851,2.1734,cancer genomics,Nuria Lopez-Bigas,https://www.irbbarcelona.org
+group,Structural Bioinformatics and Network Biology,IRB Barcelona,Barcelona,Catalunya,41.3851,2.1734,structural bioinformatics,Patrick Aloy,https://www.irbbarcelona.org
+group,MMB Group,IRB Barcelona / BSC,Barcelona,Catalunya,41.3851,2.1734,molecular modelling,Modesto Orozco,https://mmb.irbbarcelona.org
+group,Comparative Genomics,BSC / IRB Barcelona,Barcelona,Catalunya,41.3897,2.1160,comparative genomics,Toni Gabaldon,https://cgenomics.org
+center,UPF-GRIB,UPF; IMIM,Barcelona,Catalunya,41.3846,2.1943,biomedical informatics,Ferran Sanz,https://grib.imim.es
+center,IGTP,ICS; CERCA,Badalona,Catalunya,41.4540,2.2345,biomedical genomics,,https://www.germanstrias.org
+group,GCAT GenomesForLife,IGTP,Badalona,Catalunya,41.4540,2.2345,population genomics,Rafael de Cid,https://www.germanstrias.org
+center,CRAG,CSIC; IRTA; UAB; UB,Barcelona,Catalunya,41.5008,2.1072,plant genomics,,https://www.crg.eu
+center,ISGlobal,Hospital Clinic; UB,Barcelona,Catalunya,41.3874,2.1508,global health; genomics,,https://www.isglobal.org
+center,IDIBELL,Hospital de Bellvitge; UB,L Hospitalet,Catalunya,41.3434,2.1103,cancer genomics; epigenomics,,https://www.idibell.cat
+center,IDIBAPS,Hospital Clinic; UB,Barcelona,Catalunya,41.3874,2.1508,biomedical research,,https://www.idibaps.org
+center,VHIR,Hospital Vall d Hebron,Barcelona,Catalunya,41.4275,2.1431,clinical genomics,,https://www.vhir.org
+center,IIB Sant Pau,Hospital de Sant Pau,Barcelona,Catalunya,41.4134,2.1744,biomedical research,,https://www.iibsantpau.cat
+center,IMIM,Hospital del Mar,Barcelona,Catalunya,41.3846,2.1943,biomedical research,,https://www.imim.es
+center,IRB Lleida,Hospital Arnau de Vilanova,Lleida,Catalunya,41.6176,0.6200,biomedical research,,https://www.irblleida.cat
+center,PARC TAULI,Hospital Parc Tauli,Sabadell,Catalunya,41.5463,2.1086,innovation,,https://www.tauli.cat
+center,CBGP,UPM-INIA,Madrid,Comunidad de Madrid,40.4531,-3.7984,plant genomics,,https://www.cbgp.upm.es
+group,Comparative Genomics and Metagenomics,CBGP,Madrid,Comunidad de Madrid,40.4531,-3.7984,plant metagenomics,Jaime Huerta Cepas,https://www.cbgp.upm.es
+center,CNB-CSIC,CSIC,Madrid,Comunidad de Madrid,40.4398,-3.6895,biotechnology; genomics,,https://www.cnb.csic.es
+group,Biocomputing Unit,CNB-CSIC,Madrid,Comunidad de Madrid,40.4398,-3.6895,biocomputing; cryo-EM,Jose Maria Carazo,https://www.cnb.csic.es
+center,CBM Severo Ochoa,CSIC; UAM,Madrid,Comunidad de Madrid,40.5464,-3.6928,molecular biology,,https://www.cbm.csic.es
+group,Systems Biomedicine,CNC-CSIC,Madrid,Comunidad de Madrid,40.4466,-3.7192,systems biology,Monica Chagoyen,https://www.csic.es
+center,IMDEA Food,Comunidad de Madrid,Madrid,Comunidad de Madrid,40.4061,-3.8356,nutrition; computational biology,,https://www.food.imdea.org
+center,IDIPAZ,Hospital La Paz,Madrid,Comunidad de Madrid,40.4815,-3.6867,biomedical research,,https://www.idipaz.es
+center,IIS-PRINCESA,Hospital de La Princesa,Madrid,Comunidad de Madrid,40.4320,-3.6736,biomedical research,,https://www.iis-princesa.org
+center,IISFJD,Fundacion Jimenez Diaz,Madrid,Comunidad de Madrid,40.4392,-3.7210,biomedical research,,https://www.fjd.es
+center,IRYCIS,Hospital Ramon y Cajal,Madrid,Comunidad de Madrid,40.4711,-3.6474,biomedical research,,https://www.irycis.org
+center,i+12,Hospital 12 de Octubre,Madrid,Comunidad de Madrid,40.3764,-3.6968,biomedical research,,https://www.i12.es
+center,IiSGM,Hospital Gregorio Maranon,Madrid,Comunidad de Madrid,40.4213,-3.6721,biomedical research,,https://www.iisgm.com
+center,IdISSC,Hospital Clinico San Carlos,Madrid,Comunidad de Madrid,40.4408,-3.7198,biomedical research,,https://www.idissc.org
+center,IDIPHIM,Hospital Puerta de Hierro,Madrid,Comunidad de Madrid,40.4570,-3.8200,biomedical research,,https://www.idiphim.org
+center,IBiS,HUVR; CSIC; US,Sevilla,Andalucia,37.3628,-5.9789,biomedical research,,https://www.ibis-sevilla.es
+center,ibs.GRANADA,Hospital Universitario,Granada,Andalucia,37.1804,-3.6095,biomedical research,,https://www.ibsgranada.es
+center,IMIBIC,Hospital Reina Sofia; UCO,Cordoba,Andalucia,37.8896,-4.7749,biomedical research,,https://www.imibic.org
+center,IBIMA-BIONAND,Hospital Regional Malaga,Malaga,Andalucia,36.7213,-4.4214,biomedical research,,https://www.ibima.eu
+center,CABD,CSIC; UPO; JA,Sevilla,Andalucia,37.3545,-5.9779,developmental biology,,https://www.cabd.es
+center,GENYO,Junta de Andalucia,Granada,Andalucia,37.1789,-3.6009,pharmacogenomics,,https://www.genyo.es
+group,Andalusian Computational Medicine Platform,FPS,Sevilla,Andalucia,37.3628,-5.9789,computational medicine,Joaquin Dopazo,https://www.clinbioinfosspa.es
+center,IPBLN-CSIC,CSIC,Granada,Andalucia,37.1804,-3.6095,molecular biology,,https://www.ipb.csic.es
+center,CIPF,Generalitat Valenciana,Valencia,Comunitat Valenciana,39.4414,-0.3373,genomics; proteomics,,https://www.cipf.es
+center,IIS LA FE,Hospital La Fe,Valencia,Comunitat Valenciana,39.4356,-0.4139,biomedical research,,https://www.iislafe.es
+center,INCLIVA,Hospital Clinico Valencia,Valencia,Comunitat Valenciana,39.4699,-0.3763,biomedical research,,https://www.incliva.es
+center,ISABIAL,Hospital General Alicante,Alicante,Comunitat Valenciana,38.3450,-0.5100,biomedical research,,https://isabial.es
+group,Genomics of Gene Expression,I2SysBio; UPV,Valencia,Comunitat Valenciana,39.4414,-0.3373,transcriptomics; gene expression,Ana Conesa,https://www.i2sysbio.csic.es
+center,IIS Aragon,Gobierno de Aragon,Zaragoza,Aragon,41.6488,-0.8891,health research,,https://www.iisaragon.es
+group,Computational and Structural Biology,EEAD-CSIC,Zaragoza,Aragon,41.6488,-0.8891,structural biology; plant,Bruno Contreras Moreira,https://www.eead.csic.es
+center,CESGA,Xunta de Galicia; CSIC,Santiago de Compostela,Galicia,42.8768,-8.5449,HPC,,https://www.cesga.es
+center,IDIS,Hospital Clinico Santiago,Santiago de Compostela,Galicia,42.8768,-8.5449,biomedical research,,https://www.idisantiago.es
+center,INIBIC,CHUAC,A Coruna,Galicia,43.3318,-8.4115,biomedical research,,https://www.inibic.es
+center,IIS Galicia Sur,Hospital Alvaro Cunqueiro,Vigo,Galicia,42.2155,-8.7348,biomedical research,,https://www.iisgaliciasur.es
+center,ISPA,Hospital HUCA,Oviedo,Asturias,43.3614,-5.8593,biomedical research,,https://ispa-finba.es
+group,Computational Biochemistry Lab,ISPA-FINBA,Oviedo,Asturias,43.3614,-5.8593,structural bioinformatics,,https://ispa-finba.es
+center,CIC bioGUNE,BRTA,Derio,Pais Vasco,43.2949,-2.8761,proteomics; metabolomics,,https://www.cicbiogune.es
+center,IIS Biocruces Bizkaia,Hospital Cruces,Barakaldo,Pais Vasco,43.2871,-2.9904,biomedical research,,https://www.biocruces.org
+center,IIS Biodonostia,Hospital Donostia,San Sebastian,Pais Vasco,43.3183,-1.9812,biomedical research,,https://www.biodonostia.org
+center,CIMA,Universidad de Navarra,Pamplona,Navarra,42.8019,-1.6613,biomedical research,,https://cima.unav.edu
+center,IDISNA,Complejo Hospitalario Navarra,Pamplona,Navarra,42.8150,-1.6580,health research,,https://www.idisna.es
+center,IDIVAL,Hospital Valdecilla,Santander,Cantabria,43.4623,-3.7937,biomedical research,,https://www.idival.org
+center,IBSAL,Hospital Universitario Salamanca,Salamanca,Castilla y Leon,40.9609,-5.6636,biomedical research,,https://www.ibsal.es
+group,Bioinformatics and Functional Genomics,CIC-IBMCC,Salamanca,Castilla y Leon,40.9609,-5.6636,cancer bioinformatics,Javier De Las Rivas,https://www.cicancer.org
+center,IdISBa,Hospital Son Espases,Palma,Illes Balears,39.6326,2.6249,health research,,https://www.idisba.es
+center,IMIB,Hospital Virgen Arrixaca,Murcia,Region de Murcia,37.9922,-1.1307,biomedical research,,https://www.imib.es
+center,Computational Health Informatics,HUVdR,Sevilla,Andalucia,37.3628,-5.9789,health informatics,Carlos L. Parra-Calderon,https://www.huvr.es
+network,INB-ELIXIR-ES,ELIXIR Spain,multi-city,multi-region,40.4168,-3.7038,bioinformatics infrastructure,,https://inb-elixir.es
+society,SEBiBC,SEBiBC,multi-city,Spain,40.4168,-3.7038,professional society,,https://www.sebibc.es
+network,Bioinformatics Barcelona (BIB),Consorci BIB,Barcelona,Catalunya,41.3851,2.1734,bioinformatics network,,https://bioinformaticsbarcelona.org
