@@ -1,0 +1,57 @@
+type,name,parent_institution,city,region,lat,lon,main_area,short_description,url
+unit,Bioinformatics Unit,CNIC,Madrid,Comunidad de Madrid,40.4536,-3.6821,"genomics; multi-omics; AI","Core bioinformatics unit for cardiovascular omics and imaging data.",https://www.cnic.es/es/investigacion/bioinformatica
+unit,Genomics Unit,CNIC,Madrid,Comunidad de Madrid,40.4536,-3.6821,"genomics; NGS","NGS sequencing and analysis (RNA-seq ChIP-seq exome single-cell).",https://www.cnic.es/en/investigacion/genomics
+center,CNIO,Ministerio de Ciencia / ISCIII,Madrid,Comunidad de Madrid,40.4380,-3.6852,"cancer genomics; bioinformatics","National Cancer Research Centre with strong bioinformatics programmes.",https://www.cnio.es
+unit,Bioinformatics Unit (CNIO),CNIO,Madrid,Comunidad de Madrid,40.4380,-3.6852,"cancer genomics; NGS","Bioinformatics unit within Cancer Genomics Programme.",https://www.cnio.es/investigacion-e-innovacion/programas-cientificos/programa-de-genomica-del-cancer/unidad-de-bioinformatica/
+center,ISCIII,Ministerio de Ciencia / Sanidad,Madrid,Comunidad de Madrid,40.4573,-3.7186,"public health; clinical genomics","National public health research institute with bioinformatics platforms.",https://www.isciii.es
+unit,Bioinformatics Unit (UB-ISCIII),ISCIII,Madrid,Comunidad de Madrid,40.4573,-3.7186,"genomics; clinical bioinformatics","Central bioinformatics unit for diagnostics and surveillance.",https://www.isciii.es
+program,Master Bioinformatics MPP,"ISCIII / CNIO / BSC","Madrid; Barcelona",multi-region,40.4380,-3.6852,"education; biomedical bioinformatics","Master programme in bioinformatics for precision medicine.",https://www.cnio.es/educacion-y-formacion/
+center,IRB Barcelona,"UB; CERCA",Barcelona,Catalunya,41.3851,2.1734,"biomedical research; computational biology","Severo Ochoa centre with computational biology groups.",https://www.irbbarcelona.org
+group,Structural Bioinformatics and Network Biology,IRB Barcelona,Barcelona,Catalunya,41.3851,2.1734,"structural bioinformatics; systems biology","Structural bioinformatics and network biology group.",https://www.irbbarcelona.org/en/research/structural-bioinformatics-and-network-biology
+unit,Biostatistics/Bioinformatics Core,IRB Barcelona,Barcelona,Catalunya,41.3851,2.1734,"biostatistics; bioinformatics","Core facility for biostatistics and bioinformatics.",https://www.irbbarcelona.org/en/research/biostatisticsbioinformatics
+center,CRG,"UPF; CERCA",Barcelona,Catalunya,41.3846,2.1943,"genomics; systems biology; bioinformatics","Severo Ochoa centre for genomic regulation.",https://www.crg.eu
+program,Bioinformatics and Genomics Programme,CRG,Barcelona,Catalunya,41.3846,2.1943,"genomics; evolutionary genomics","Research programme on biological information encoding.",https://www.crg.eu/programmes-groups/bioinformatics-genomics
+center,CNAG-CRG,CRG,Barcelona,Catalunya,41.3846,2.1943,"large-scale genomics; sequencing","National Center for Genomic Analysis.",https://www.cnag.crg.eu
+program,Joint BSC-CRG-IRB Computational Biology,"BSC; CRG; IRB",Barcelona,Catalunya,41.3897,2.1160,"computational biology; HPC","Joint programme with ~200 scientists.",https://mmb.irbbarcelona.org/www/research
+group,MMB Group,Joint BSC-CRG-IRB,Barcelona,Catalunya,41.3897,2.1160,"molecular modelling; structural bioinformatics","Molecular modelling and simulations group.",https://mmb.irbbarcelona.org
+network,Bioinformatics Barcelona (BIB),Consorci BIB,Barcelona,Catalunya,41.3851,2.1734,"bioinformatics network","Regional network of bioinfo groups in Catalonia.",https://bioinformaticsbarcelona.org/strategic-research/
+center,IGTP,"ICS; CERCA",Badalona,Catalunya,41.4540,2.2345,"biomedical research; genomics","Biomedical institute with genomics groups.",https://www.germanstrias.org
+university,UAB bioinformatics groups,UAB,Bellaterra,Catalunya,41.5008,2.1072,"bioinformatics; genome diversity","University bioinformatics groups listed in BIB.",https://bioinformaticsbarcelona.org/strategic-research/
+center,BSC,Ministerio de Ciencia,Barcelona,Catalunya,41.3897,2.1160,"HPC; computational biology","Barcelona Supercomputing Center - INB node.",https://www.bsc.es
+center,CRAG,"CSIC; IRTA; UAB; UB",Barcelona,Catalunya,41.5008,2.1072,"plant genomics; bioinformatics","SOMMa centre for agricultural genomics.",https://somma.es/centre/centre-for-research-in-agricultural-genomics-crag/
+center,ISGlobal,"Hospital Clinic; UB",Barcelona,Catalunya,41.3874,2.1508,"global health; genomics; data science","SOMMa centre for global health bioinformatics.",https://somma.es/centre/barcelona-institute-for-global-health-isglobal/
+center,UPF-GRIB,"UPF; IMIM",Barcelona,Catalunya,41.3846,2.1943,"biomedical informatics; pharmacogenomics","Research Group on Biomedical Informatics.",https://grib.imim.es
+center,IMDEA Food,Comunidad de Madrid,Madrid,Comunidad de Madrid,40.4061,-3.8356,"nutrition; genomics; computational biology","Research institute with computational biology group.",https://www.food.imdea.org
+group,Computational Biology Group,IMDEA Food,Madrid,Comunidad de Madrid,40.4061,-3.8356,"computational biology; nutrition","Computational biology applied to nutrition.",https://www.food.imdea.org/computational-biology
+center,CBGP,UPM-INIA,Madrid,Comunidad de Madrid,40.4531,-3.7984,"plant genomics; systems biology","Severo Ochoa plant biotechnology and genomics centre.",https://www.cbgp.upm.es
+group,CsBGP,CBGP,Madrid,Comunidad de Madrid,40.4531,-3.7984,"plant systems biology; genomics","Computational systems biology and genomics group.",https://www.cbgp.upm.es/index.php/es/informacion-cientifica/csbgp
+center,CNB-CSIC,CSIC,Madrid,Comunidad de Madrid,40.4398,-3.6895,"biotechnology; genomics; bioinformatics","National Centre for Biotechnology.",https://somma.es/centre/national-centre-for-biotechnology-cnb-csic/
+center,CBM Severo Ochoa,"CSIC; UAM",Madrid,Comunidad de Madrid,40.5464,-3.6928,"molecular biology; genetics; genomics","Severo Ochoa centre in molecular biology.",https://somma.es/centre/centro-de-biologia-molecular-severo-ochoa-cbm/
+unit,Computational Biology Unit,CBM Severo Ochoa,Madrid,Comunidad de Madrid,40.5464,-3.6928,"structural bioinformatics; computational biology","Unit led by Ugo Bastolla.",http://www.csic.es
+center,CESGA,"Xunta de Galicia; CSIC",Santiago de Compostela,Galicia,42.8768,-8.5449,"HPC; bioinformatics support","Galician supercomputing centre with RSG-Spain node.",https://www.cesga.es
+network,RSG-Spain Galicia Node,"RSG-Spain; CESGA",Santiago de Compostela,Galicia,42.8768,-8.5449,"student network; bioinformatics","Regional student node for bioinformatics.",https://www.cesga.es
+center,ISPA-FINBA,Principado de Asturias,Oviedo,Asturias,43.3614,-5.8593,"biomedical research; computational biochemistry","Health research institute with structural bioinformatics lab.",https://ispa-finba.es
+group,Computational Biochemistry Lab,ISPA-FINBA,Oviedo,Asturias,43.3614,-5.8593,"structural bioinformatics; computational chemistry","Lab created 2024 for structural bioinformatics.",https://ispa-finba.es/investigacion/biotecnologia/bioquimica-computacional/
+center,CABD,"CSIC; UPO; Junta de Andalucia",Sevilla,Andalucia,37.3545,-5.9779,"developmental biology; genomics","Developmental biology centre with bioinformatics service.",https://www.cabd.es
+service,Bioinformatics Service,CABD,Sevilla,Andalucia,37.3545,-5.9779,"genomics; training","Bioinformatics service for genomic data analysis.",https://www.cabd.es/es/pages/194/servicio-de-bioinformatica.html
+center,IBiS,"HUVR; CSIC; Universidad de Sevilla",Sevilla,Andalucia,37.3628,-5.9789,"biomedical research; bioinformatics","Biomedical research institute.",https://www.ibis-sevilla.es
+unit,Bioinformatics and Comp Biology Unit,IBiS,Sevilla,Andalucia,37.3628,-5.9789,"clinical genomics; bioinformatics","Bioinformatics service unit.",https://www.ibis-sevilla.es
+center,IPBLN-CSIC,CSIC,Granada,Andalucia,37.1804,-3.6095,"molecular biology; genomics","Institute with ILRA genome assembly tools.",https://delegacion.andalucia.csic.es
+center,GENYO,Junta de Andalucia,Granada,Andalucia,37.1789,-3.6009,"genomics; pfarmacogenomics","Centre for Genomics and Oncological Research.",https://www.genyo.es
+center,CIPF,Generalitat Valenciana,Valencia,Comunitat Valenciana,39.4414,-0.3373,"genomics; bioinformatics; proteomics","Prince Felipe Research Centre with bioinformatics department.",https://www.cipf.es
+unit,Bioinformatics Dept,CIPF,Valencia,Comunitat Valenciana,39.4414,-0.3373,"genomics; computational biology","Bioinformatics and genomics department.",https://www.cipf.es
+program,Master Bioinformatics UV,Universitat de Valencia,Valencia,Comunitat Valenciana,39.4699,-0.3763,"education; bioinformatics","Official Master in Bioinformatics.",https://www.uv.es/bioinfor
+center,CIC bioGUNE,"BRTA; Gobierno Vasco",Derio,Pais Vasco,43.2949,-2.8761,"proteomics; metabolomics; genomics","Centre for Cooperative Research in Biosciences.",https://www.cicbiogune.es
+center,Biodonostia,Gobierno Vasco,San Sebastian,Pais Vasco,43.3183,-1.9812,"biomedical research; genomics","Health Research Institute with genomics platforms.",https://www.biodonostia.org
+center,CIBIO,Universidad de Alicante,Alicante,Comunitat Valenciana,38.3850,-0.5100,"biodiversity informatics; genomics","Institute for Biodiversity Research.",https://cibio.ua.es
+center,CIMA,Universidad de Navarra,Pamplona,Navarra,42.8019,-1.6613,"biomedical research; genomics","Centre for Applied Medical Research.",https://cima.unav.edu
+center,IBGM,"CSIC; UVa",Valladolid,Castilla y Leon,41.6577,-4.7113,"molecular genetics; genomics","Institute of Molecular Biology and Genetics.",https://www.ibgm.uva.es
+center,IACS,Gobierno de Aragon,Zaragoza,Aragon,41.6488,-0.8891,"health research; bioinformatics","Aragon Health Sciences Institute.",https://www.iacs.es
+center,IMIBIC,"CSIC; UCO; SAS",Cordoba,Andalucia,37.8896,-4.7749,"biomedical research; genomics","Maimonides Biomedical Research Institute.",https://www.imibic.org
+center,IDIBELL,"Hospital de Bellvitge; UB",L Hospitalet,Catalunya,41.3434,2.1103,"cancer genomics; epigenomics","Bellvitge Biomedical Research Institute.",https://www.idibell.cat
+center,VHIR,"Hospital Vall d Hebron",Barcelona,Catalunya,41.4275,2.1431,"clinical genomics; bioinformatics","Vall d'Hebron Research Institute.",https://www.vhir.org
+center,IDIBAPS,"Hospital Clinic; UB",Barcelona,Catalunya,41.3874,2.1508,"biomedical research; genomics","August Pi i Sunyer Biomedical Research Institute.",https://www.idibaps.org
+network,INB-ELIXIR-ES,ELIXIR Spain,multi-city,multi-region,40.4168,-3.7038,"bioinformatics infrastructure","Spanish ELIXIR node coordinating 19 groups.",https://elixir-europe.org/about-us/who-we-are/nodes/spain
+society,SEBiBC,SEBiBC,multi-city,Spain,40.4168,-3.7038,"professional society","Spanish Bioinformatics Society.",https://www.sebibc.es
+society,RSG-Spain,ISCB Student Council,multi-city,Spain,40.4168,-3.7038,"student network","Spanish ISCB student group.",https://www.rsg-spain.iscbsc.org
+program,Doctoral Programme Bioinformatics,"UAB; UPC; UdG; UOC; UB",multiple,Catalunya,41.3851,2.1734,"education; bioinformatics","Interuniversity doctoral programme.",https://www.uoc.edu/en/studies/doctorates/doctorate-bioinformatics
