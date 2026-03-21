@@ -110,7 +110,7 @@ save_fig <- function(p, name, w = 7.2, h = 5) {
 # DATA
 # =============================================================================
 cat("Loading data...\n")
-dat <- read.csv("D:/Antigravity/awesome-awesomers/spain_bioinfo/centros_bioinfo_spain_v2.csv",
+dat <- read.csv("D:/Antigravity/awesome-awesomers/spain_bioinfo/centros_bioinfo_spain_v3.csv",
                 stringsAsFactors = FALSE)
 map_dat <- dat %>%
   filter(!is.na(lat), !is.na(lon), !region %in% c("multi-region", "Spain")) %>%
